@@ -1,0 +1,313 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #04091C;
+
+  }
+   h3, p, ul, a {
+    font-family: Verdana;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2 {
+    font-family: Montserrat;
+    font-size: 3em;
+    color: #FFB800;
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  h3 {
+    font-size: 1.8em;
+    font-weight: 700;
+    line-height: 2em;
+
+  }
+  
+  p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+  }
+
+  arrow {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: #FFB800;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #FFB800;
+  }
+  
+
+  
+
+  /* ancora */
+  .anchor {
+    padding-top: 100px;
+    margin-top: -100px;
+  }
+  
+
+
+  
+  /****** header *********/
+  #header {
+    background: #140145;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+  }
+
+  
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+  }
+  
+  nav li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 20px 20px;
+    transition: .5s;
+  }
+  
+  nav li a:hover {
+    color: #FFB800;
+  }
+  
+  .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+  }
+
+
+    #header li {
+      float: left;
+    }
+    #header li a {
+      padding: 40px 30px;
+    }
+    #header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+
+  
+
+
+
+
+  /* Hero */
+  
+  .hero {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .hero-img {
+    width: 100%;
+    height: auto;
+  }
+  
+    .section-intro {
+      padding-bottom: 8px;
+    }
+    .topics-intro {
+      width: 80%;
+      
+    }
+  
+  .prod-title {
+    color: #fff;
+  }
+
+  .prod-subtitle {
+    color: #fff;
+  }
+  
+    .prod-title {
+      font-size: 3rem;
+    }
+
+
+  .prod-subtitle {
+    font-size: 2rem;
+  }
+}
+  
+    .prod-title {
+      font-size: 5.5rem;
+    }
+  
+
+  .prod-subtitle {
+    font-size: 2rem;
+  }
+
+  
+    .section-titles {
+      position: relative;
+      bottom: 300px;
+      left: 0px;
+      width: 70%;
+       }
+
+  
+  .prod-title {
+    text-align: center;
+  }
+
+  .prod-subtitle {
+    text-align: center;
+  }
+  
+
+
+  
+  /* topicos */
+
+  .widget-headline {
+    font-size: 1.5rem;
+    line-height: 1.2em;
+    color: #fff;
+
+    
+  }
+  
+  #prevencao, #furtado {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  
+  .prod-img, .prod-img-reverse {
+    width: 100%;
+  }
+  
+  .prod-usp {
+    padding: 40px;
+  }
+  
+  .prod-usp p {
+    font-size: 1em;
+    padding-top: 20px;
+    line-height: 1.5em;
+    color: #fff; 
+  }
+
+  .prod-usp ul, li {
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #fff;
+  }
+
+  .prod-usp ol {
+    font-size: 1em;
+    color: #fff;
+    line-height: 1.5em;
+    list-style-type: circle;  
+  }
+
+  .prod-usp a {
+    font-size: 1em;
+    color: #FFB800; 
+  }
+  
+    .container {
+      display: flex;
+      margin: 16px 60px;
+      height: auto;
+      border-radius: 20px;
+      background-color: transparent;
+      border: 1px solid #1C035E;
+    }
+    
+    .container:last-of-type {
+      margin-bottom: 60px;
+    }
+
+    .prod-usp {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: auto;
+      margin: -12px 12px;
+    }
+  
+    .flex-reverse {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+
+    .prod-img {
+      clip-path: polygon(100% 0, 80% 100%, 0% 100%, 0% 0%);
+      height: fit-content;
+      width: fit-content;
+      border-radius: 20px 0 0 20px;
+      flex-basis: 20%;
+    }
+
+    .prod-img-reverse {
+      clip-path: polygon(100% 0, 100% 100%, 20% 100%, 0% 0%);
+      height: fit-content;
+      width: fit-content;
+      border-radius: 0 20px 20px 0;
+      flex-basis: 20%;    
+    }
+    
+
+  
+  /****** footer *********/
+  footer {
+    background: #140145;
+    color: #fff;
+    font-size: .8em;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    margin-top: 24px;
+  }
+  
+  footer a {
+    color: #FFB800;
+    font-size: 1.2em;
+  }
+
+  footer a:hover {
+    color: #fff;
+  }
+      
+  footer ul {
+    display: flex;
+    flex-flow: row;
+    }
+    
+    footer li {
+      padding-left: 16px;
+    }
+  
