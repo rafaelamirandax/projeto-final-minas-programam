@@ -167,7 +167,7 @@ body {
 
 
   .prod-subtitle {
-    color: rgba(255, 255, 255, 0.493);
+    color: #ffffffc8;
     font-size: 1.2rem;
     font-weight: 200;
     text-align: left;
@@ -212,7 +212,7 @@ body {
   .widget-headline {
     font-size: 1.5rem;
     line-height: 1.2em;
-    color: #fff; 
+    color: #8A28FF; 
   }
   
 
@@ -344,14 +344,14 @@ body {
    /****** newsletter *********/
    #newsletter {
     color: #fff;
-    background: rgba(255, 255, 255, 0.073);
+    background: #8A28FF;
     align-items: center;
   }
   
   #newsletter h3 {
    float: left;
    align-items: center;
-   margin-top: 18px;
+   margin-top: 30px;
   }
   
   #newsletter form {
@@ -375,7 +375,7 @@ body {
   
   #newsletter form input[type="email"], .quote input, .quote textarea{
    width: 320px;
-   margin-top: 28px;
+   margin-top: 40px;
    margin-right: 8px;
   }
 
@@ -393,7 +393,7 @@ body {
       .newsletter-container {
         width: 64%; 
         margin: auto;
-        height: 100px;
+        height: 120px;
         overflow: hidden;
       }
   
@@ -407,7 +407,7 @@ body {
     font-size: .8em;
     display: flex;
     justify-content: space-between;
-    padding: 24px;
+    padding: 16px;
 
   }
   
